@@ -4,33 +4,33 @@ import { AiOutlineSearch } from "react-icons/ai";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col justify-center items-center gap-16 mt-5 lg:mt-10 font-sans text-[#494949]  text-[16px]">
-      <div className="flex flex-col gap-3 items-center text-center">
-        <div className="text-[#000000] font-bold text-[40px]">
-          <h1>
+    <div className="flex flex-col justify-center items-center gap-16 mt-5 font-sans text-[#494949] text-[16px] lg:mt-10  ">
+      <div className="flex flex-col gap-6 items-center text-center 2xl:gap-16">
+        <div className="text-[#000000] font-bold  ">
+          <p className="text-[20px] md:text-[36px] lg:text-[40px]  2xl:text-[100px]">
             Every Pet Deserves a{" "}
             <span className="text-[#FFBD59]"> Loving </span>
             Home.
-          </h1>
-          <h1>
+          </p>
+          <p className="text-[20px] md:text-[35px] lg:text-[38px]  2xl:text-[90px]">
             <span className="text-[#FFBD59]">Adopt</span> a Pet Today.
-          </h1>
+          </p>
         </div>
-        <p className="px-[50px] lg:px-[300px]">
-          Browse our available animals and learn more about the adoption
-          process. Together, we can
+        <p className="px-[10px] text-[12px] md:text-[18px] md:px-[60px] lg:px-[80px] xl:px-[120px] xl:text-[20px] 2xl:text-[50px]">
+          Check out the animals we have available and discover more about the
+          adoption procedure.
           <span className="font-semibold px-1">
-            rescue, rehabilitate, and rehome pets in need.
+            Together, we can save, care for, and rehome pets in need.
           </span>
-          Thank you for supporting our mission to bring joy to families through
-          pet adoption.
+          We appreciate your support in helping us spread happiness to families
+          by encouraging pet adoption.
         </p>
       </div>
       <div>
-        <div className="flex gap-1">
-          <div className="flex text-[#000000] font-semibold">
-            <p className="bg-[#E9E9E9] flex items-center py-1 gap-6 px-2">
-              <GiSittingDog size={30} className="text-[#000000]" />
+        <div className="hidden md:flex gap-1">
+          <div className="flex text-[#000000] font-semibold 2xl:text-[40px]">
+            <p className="bg-[#E9E9E9] flex items-center py-1 gap-6 px-2 xl:py-2 2xl:py-4 2xl:px-16">
+              <GiSittingDog className="text-[#000000] text-[40px] 2xl:text-[80px]" />
               <span className="bg-[#E9E9E9]">
                 <select name="" id="" className="bg-[#E9E9E9] border-0">
                   <option value="">Dog</option>
@@ -40,23 +40,23 @@ const Hero = () => {
             <input
               type="text"
               placeholder="Search dogs..."
-              className="border-1 p-1 focus:border-2 outline-none font-normal text-[12px] bg-[#f5f5f5] focus:bg-white"
+              className="border-1 p-1 focus:border-2 outline-none font-normal text-[12px] bg-[#f5f5f5] focus:bg-white 2xl:w-[600px] 2xl:p-6  2xl:text-[50px]"
             />
             <p className="flex items-center gap-1 bg-[#E9E9E9] px-2">
-              <BiSolidCloudUpload size={20} className="cursor-pointer" />
+              <BiSolidCloudUpload className="cursor-pointer text-[20px] 2xl:text-[80px]" />
               <span>Search by image</span>
             </p>
           </div>
-          <button className="bg-[#000000] px-2 w-[100px]  text-white rounded-md text-[12px] flex justify-center items-center gap-1 font-semibold">
+          <button className="bg-[#000000] px-2 w-[100px]  text-white rounded-md text-[18px] flex justify-center items-center gap-1 font-semibold hover:bg-[#FFBD59] hover:text-[#000] 2xl:w-[300px] 2xl:text-[60px]">
             <span>
-              <AiOutlineSearch size={15} />
+              <AiOutlineSearch className="text-[20px] 2xl:text-[50px]" />
             </span>
             Search
           </button>
         </div>
-        <div className="flex gap-1 items-center">
+        <div className="flex gap-1 items-center  2xl:text-[50px]">
           <p className="font-semibold">Frequents:</p>
-          <ul className="flex gap-2 text-[14px] underline">
+          <ul className="flex gap-2 text-[14px] underline  2xl:text-[40px]">
             <li>Parrot,</li>
             <li>Cat,</li>
             <li>Black-dog</li>

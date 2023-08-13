@@ -1,3 +1,4 @@
+import Footer from "./Components/Footer";
 import Hero from "./Components/Hero";
 import Navbar from "./Components/Navbar";
 import Bird from "./Components/Pets/Bird";
@@ -12,6 +13,7 @@ function App() {
       <Dog />
       <Cat />
       <Bird />
+      <Footer />
     </div>
   );
 }
