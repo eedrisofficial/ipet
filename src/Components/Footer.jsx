@@ -60,7 +60,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <p className=" text-center p-6 text-[#FFFFFF] text-[18px]">
+      <p className=" text-center p-6 text-[#FFFFFF] text-[18px] border-t-2 border-[#FFBD59]">
         &copy; {today.getFullYear()} || All Rights Reserved
       </p>
     </div>
