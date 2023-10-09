@@ -1,23 +1,26 @@
+import React, { useState } from "react";
 import { FaPaw } from "react-icons/fa";
 import { AiFillFlag, AiOutlineMenu } from "react-icons/ai";
 import { CgMenuGridO } from "react-icons/cg";
 import NavbarUl from "./NavbarUl";
-import { useState } from "react";
 import MobileNavbar from "./MobileNavbar";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [mobileNav, setMobileNav] = useState(false);
   return (
-    <div className="">
+    <React.Fragment>
       <nav className="hidden font-semibold font-sans  px-[50px] py-[30px] text-[#494949] lg:flex  justify-between 2xl:justify-evenly 2xl:py-[60px] ">
-        <div className="flex gap-1 items-center">
-          <p className="bg-[#FFBD59] p-2 rounded-md">
-            <FaPaw className="text-[#000000]" />
-          </p>
-          <h1 className="font-bold text-[14px] xl:text-[20px] 2xl:text-[30px]">
-            iPET
-          </h1>
-        </div>
+        <Link to="/">
+          <div className="flex gap-1 items-center">
+            <p className="bg-[#FFBD59] p-2 rounded-md">
+              <FaPaw className="text-[#000000]" />
+            </p>
+            <h1 className="font-bold text-[14px] xl:text-[20px] 2xl:text-[30px]">
+              iPET
+            </h1>
+          </div>
+        </Link>
         <NavbarUl />
         <div className="flex justify-center items-center gap-6">
           <div className="flex items-center">
@@ -47,7 +50,7 @@ const Navbar = () => {
         <AiOutlineMenu className="text-[24px] md:text-[60px]" />
         <MobileNavbar mobileNav={mobileNav} setMobileNav={setMobileNav} />
       </div>
-    </div>
+    </React.Fragment>
   );
 };
 

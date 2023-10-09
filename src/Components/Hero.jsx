@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div className="flex flex-col justify-center items-center gap-16 mt-5 font-sans text-[#494949] text-[16px] lg:mt-10  ">
       <div className="flex flex-col gap-6 items-center text-center 2xl:gap-16">
-        <div className="text-[#000000] font-bold  ">
+        <div className="text-[#2C3639] font-bold  ">
           <p className="text-[20px] md:text-[36px] lg:text-[40px]  2xl:text-[100px]">
             Every Pet Deserves a{" "}
             <span className="text-[#FFBD59]"> Loving </span>
@@ -47,7 +47,7 @@ const Hero = () => {
               <span>Search by image</span>
             </p>
           </div>
-          <button className="bg-[#000000] px-2 w-[100px]  text-white rounded-md text-[18px] flex justify-center items-center gap-1 font-semibold hover:bg-[#FFBD59] hover:text-[#000] 2xl:w-[300px] 2xl:text-[60px]">
+          <button className="bg-[#2C3639] px-2 w-[100px]  text-white rounded-md text-[18px] flex justify-center items-center gap-1 font-semibold hover:bg-[#495e64] duration-500  2xl:w-[300px] 2xl:text-[60px]">
             <span>
               <AiOutlineSearch className="text-[20px] 2xl:text-[50px]" />
             </span>
