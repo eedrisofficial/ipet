@@ -1,5 +1,8 @@
 import React from "react";
 import Navbar from "../Navbar";
+import { BsFillTelephoneFill } from "react-icons/bs";
+import { MdMarkEmailRead } from "react-icons/md";
+import SocialMedia from "../SocialMedia";
 
 const Contact = () => {
   return (
@@ -43,12 +46,62 @@ const Contact = () => {
                 SEND
               </button>
             </form>
+            <div className="flex flex-col gap-8  pt-8 ">
+              <div className="flex justify-between gap-10">
+                <div className="text-[#2C3639] font-semibold  flex flex-col gap-1">
+                  <p className="flex gap-2 items-center text-[#186f65]">
+                    <span className="">
+                      <BsFillTelephoneFill size={20} />
+                    </span>
+                    Telephone
+                  </p>
+                  <p>+2348132624679</p>
+                </div>
+                <div className="text-[#2C3639] font-semibold  flex flex-col gap-1">
+                  <p className="flex gap-2 items-center text-[#186f65]">
+                    <span className="">
+                      <MdMarkEmailRead size={20} />
+                    </span>
+                    Email
+                  </p>
+                  <p>eedrisharuna3@gmail.com</p>
+                </div>
+              </div>
+              <div className="flex flex-col justify-center items-center font-extrabold text-black">
+                <h1>You can reach us on social media </h1>
+                <SocialMedia />
+              </div>
+            </div>
           </div>
           <div className="w-[50%] hidden lg:flex ">
             <img src="/donate2.jpeg" alt="" className="w-full h-[100%]" />
           </div>
         </div>
       </section>
+      {/* <div className="flex justify-center items-center px-[100px]">
+        <div className="text-[#2C3639] font-semibold  flex flex-col gap-1">
+          <p className="flex gap-2 items-center text-[#186f65]">
+            <span className="">
+              <BsFillTelephoneFill size={20} />
+            </span>
+            Telephone
+          </p>
+          <p>+2348132624679</p>
+        </div>
+        <div className="text-[#2C3639] font-semibold  flex flex-col gap-1">
+          <p className="flex gap-2 items-center text-[#186f65]">
+            <span className="">
+              <MdMarkEmailRead size={20} />
+            </span>
+            Email
+          </p>
+          <p>eedrisharuna3@gmail.com</p>
+        </div>
+        <div>
+          <h1>You can reach us on social media </h1>
+          <SocialMedia />
+        </div>
+      </div> */}
     </React.Fragment>
   );
 };
