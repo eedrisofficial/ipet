@@ -32,9 +32,9 @@ const Hero = () => {
             <p className="bg-[#E9E9E9] flex items-center py-1 gap-6 px-2 xl:py-2 2xl:py-4 2xl:px-16">
               <GiSittingDog className="text-[#000000] text-[40px] 2xl:text-[80px]" />
               <span className="bg-[#E9E9E9]">
-                <select name="" id="" className="bg-[#E9E9E9] border-0">
-                  <option value="">Dog</option>
-                </select>
+                <div name="" id="" className="bg-[#E9E9E9] border-0">
+                  <p>Dog</p>
+                </div>
               </span>
             </p>
             <input

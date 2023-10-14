@@ -1,6 +1,7 @@
 import React from "react";
 import { AiOutlineClose } from "react-icons/ai";
 import NavbarUl from "./NavbarUl";
+import NavbarButton from "./NavbarButton";
 
 const MobileNavbar = ({ mobileNav, setMobileNav }) => {
   return (
@@ -28,6 +29,9 @@ const MobileNavbar = ({ mobileNav, setMobileNav }) => {
         </h1>
         <nav className="text-white md:tex-[30px] font-bold">
           <NavbarUl />
+          <div className="pt-5 text-white ">
+            <NavbarButton />
+          </div>
         </nav>
       </div>
     </div>

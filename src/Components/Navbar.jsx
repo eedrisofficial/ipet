@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import { FaPaw } from "react-icons/fa";
-import { AiFillFlag, AiOutlineMenu } from "react-icons/ai";
+import { AiOutlineMenu } from "react-icons/ai";
 import { CgMenuGridO } from "react-icons/cg";
 import NavbarUl from "./NavbarUl";
 import MobileNavbar from "./MobileNavbar";
 import { Link } from "react-router-dom";
+import NavbarButton from "./NavbarButton";
 
 const Navbar = () => {
   const [mobileNav, setMobileNav] = useState(false);
@@ -22,25 +23,7 @@ const Navbar = () => {
           </div>
         </Link>
         <NavbarUl />
-        <div className="flex justify-center items-center gap-6">
-          <div className="flex items-center">
-            <p>
-              <CgMenuGridO className="text-[18px] xl:text-[20px] 2xl:text-[50px]" />
-            </p>
-            <select className="text-[16px] font-semibold  border-2 border-[#000]">
-              <option value="pet">Pets</option>
-              <option value="cat">Cats</option>
-              <option value="dog">Dogs</option>
-            </select>
-          </div>
-
-          <p>
-            <AiFillFlag className="text-[#000000] font-bold text-[16px] xl:text-[20px] 2xl:text-[40px]" />
-          </p>
-          <button className="text-[#000000] text-[12px] font-bold border-[1px] rounded-md px-2 lg:text-[16px]  2xl:text-[30px]">
-            Sign in
-          </button>
-        </div>
+        <NavbarButton />
       </nav>
       <div
         onClick={() => setMobileNav(!mobileNav)}
