@@ -13,8 +13,8 @@ const AboutUsCard = () => {
           <div className="p-3 bg-slate-300 flex items-center gap-2 h-[50%]">
             <img
               className="h-[80px] w-[80px] object-cover rounded-full"
-              src="about.jpeg"
-              alt=""
+              src="/profile.jpeg"
+              alt="profile_image"
             />
             <h4 className="text-indigo-950 font-bold">Idris Haruna</h4>
           </div>
@@ -27,8 +27,8 @@ const AboutUsCard = () => {
           <div className="p-3 bg-slate-300 flex items-center gap-2 h-[50%]">
             <img
               className="h-[80px] w-[80px] rounded-full"
-              src="about.jpeg"
-              alt=""
+              src="/profile.jpeg"
+              alt="profile_image"
             />
             <h4 className="text-indigo-950 font-bold">Idris Haruna</h4>
           </div>
@@ -41,8 +41,8 @@ const AboutUsCard = () => {
           <div className="p-3 bg-slate-300 flex items-center gap-2 h-[50%]">
             <img
               className="h-[80px] w-[80px] rounded-full"
-              src="about.jpeg"
-              alt=""
+              src="/profile.jpeg"
+              alt="profile_image"
             />
             <h4 className="text-indigo-950 font-bold">Idris Haruna</h4>
           </div>
