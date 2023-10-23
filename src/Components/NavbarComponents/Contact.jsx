@@ -12,7 +12,7 @@ const Contact = () => {
         <div className="w-[100%]  flex items-center shadow-lg  ">
           <div className="w-[50%] flex flex-col gap-4 p-5">
             <h2 className="font-bold text-2xl text-[#FFBD59]">
-              Get In <span className="text-[#2C3639]">Touch</span>{" "}
+              Send us <span className="text-[#2C3639]">a message</span>{" "}
             </h2>
             <p className="">
               connect with us via our customer support or locate us on social
@@ -74,34 +74,10 @@ const Contact = () => {
             </div>
           </div>
           <div className="w-[50%] hidden lg:flex ">
-            <img src="/donate2.jpeg" alt="" className="w-full h-[100%]" />
+            <img src="/contact.jpeg" alt="" className="w-full h-[100%]" />
           </div>
         </div>
       </section>
-      {/* <div className="flex justify-center items-center px-[100px]">
-        <div className="text-[#2C3639] font-semibold  flex flex-col gap-1">
-          <p className="flex gap-2 items-center text-[#186f65]">
-            <span className="">
-              <BsFillTelephoneFill size={20} />
-            </span>
-            Telephone
-          </p>
-          <p>+2348132624679</p>
-        </div>
-        <div className="text-[#2C3639] font-semibold  flex flex-col gap-1">
-          <p className="flex gap-2 items-center text-[#186f65]">
-            <span className="">
-              <MdMarkEmailRead size={20} />
-            </span>
-            Email
-          </p>
-          <p>eedrisharuna3@gmail.com</p>
-        </div>
-        <div>
-          <h1>You can reach us on social media </h1>
-          <SocialMedia />
-        </div>
-      </div> */}
     </React.Fragment>
   );
 };

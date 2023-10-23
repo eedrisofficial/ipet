@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { FaPaw } from "react-icons/fa";
 import { AiOutlineMenu } from "react-icons/ai";
-import { CgMenuGridO } from "react-icons/cg";
 import NavbarUl from "./NavbarUl";
 import MobileNavbar from "./MobileNavbar";
 import { Link } from "react-router-dom";

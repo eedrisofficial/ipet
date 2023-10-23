@@ -8,19 +8,18 @@ const AboutUs = () => {
     <React.Fragment>
       <Navbar />
       <div className="mb-10">
-        <div className="bg-gradient-to-r from-slate-900 to-gray-900  w-full relative">
+        <div className="bg-gradient-to-r from-slate-800 to-gray-800  w-full relative">
           <img
             className="w-full h-full object-cover absolute mix-blend-overlay"
-            src="https://images.pexels.com/photos/140134/pexels-photo-140134.jpeg?auto=compress&cs=tinysrgb&w=600"
+            src="/aboutimg.jpeg"
             alt=""
           />
           <div className=" flex flex-col justify-center items-center  text-[#FFF] p-10 px-2 lg:px-[50px] text-center">
             <h1 className="text-[#FFBD59] relative font-extrabold text-[30px]">
-              {" "}
               About Us
             </h1>
             <p className="relative">
-              Welcome to iPet - Where{" "}
+              Welcome to iPet - Where
               <span className="text-[#FFBD59] ">
                 Compassion Meets Companionship!
               </span>

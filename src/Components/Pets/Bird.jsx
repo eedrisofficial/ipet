@@ -3,7 +3,7 @@ import SingleFrame from "./SingleFrame";
 import { bird } from "../Local DB/Bird";
 
 const Bird = () => {
-  const [pet, setPet] = useState(bird);
+  const [pet] = useState(bird);
   return (
     <React.Fragment>
       <div className="flex  justify-center items-center cursor-pointer pt-4 px-4 lg:px-0">

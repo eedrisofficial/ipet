@@ -5,17 +5,24 @@ import Hero from "./Hero";
 import Bird from "./Pets/Bird";
 import Cat from "./Pets/Cat";
 import Dog from "./Pets/Dog";
+import { motion } from "framer-motion";
 
 const LandingPage = () => {
   return (
     <React.Fragment>
       <Navbar />
-      <div className="mb-10">
+      <motion.div
+        initial="offscreen"
+        whileInView="onscreen"
+        viewport={{ once: true, amount: 0.8 }}
+        animate={{}}
+        className="mb-10"
+      >
         <Hero />
         <Dog />
         <Cat />
         <Bird />
-      </div>
+      </motion.div>
       <Footer />
     </React.Fragment>
   );
