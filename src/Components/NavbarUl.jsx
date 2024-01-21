@@ -43,12 +43,12 @@ const NavbarUl = () => {
       >
         Contact us
       </Link>
-      <Link
+      {/* <Link
         to="/blog"
         className=" hover:underline lg:hover:no-underline lg:hover:bg-[#f4f4f4] p-1 rounded-md"
       >
         Blog
-      </Link>
+      </Link> */}
     </ul>
   );
 };

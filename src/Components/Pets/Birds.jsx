@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import SingleFrame from "./SingleFrame";
 import { bird } from "../Local DB/Bird";
+import SingleFrame from "./SingleFrame";
 
-const Bird = () => {
+const Birds = () => {
   const [pet] = useState(bird);
   return (
     <React.Fragment>
@@ -25,4 +25,4 @@ const Bird = () => {
   );
 };
 
-export default Bird;
+export default Birds;

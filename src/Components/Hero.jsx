@@ -1,12 +1,18 @@
 import { BiSolidCloudUpload } from "react-icons/bi";
 import { GiSittingDog } from "react-icons/gi";
 import { AiOutlineSearch } from "react-icons/ai";
+import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
     <div className="flex flex-col justify-center items-center gap-16 mt-5 font-sans text-[#494949] text-[16px] lg:mt-10  ">
       <div className="flex flex-col gap-6 items-center text-center 2xl:gap-16">
-        <div className="text-[#2C3639] font-bold  ">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 1 }}
+          className="text-[#2C3639] font-bold  "
+        >
           <p className="text-[20px] md:text-[36px] lg:text-[40px]  2xl:text-[100px]">
             Every Pet Deserves a{" "}
             <span className="text-[#FFBD59]"> Loving </span>
@@ -15,7 +21,7 @@ const Hero = () => {
           <p className="text-[20px] md:text-[35px] lg:text-[38px]  2xl:text-[90px]">
             <span className="text-[#FFBD59]">Adopt</span> a Pet Today.
           </p>
-        </div>
+        </motion.div>
         <p className="px-[10px] text-[12px] md:text-[18px] md:px-[60px] lg:px-[80px] xl:px-[120px] xl:text-[20px] 2xl:text-[50px]">
           Check out the animals we have available and discover more about the
           adoption procedure.
@@ -39,7 +45,7 @@ const Hero = () => {
             </p>
             <input
               type="text"
-              placeholder="Search dogs..."
+              placeholder="Search pet..."
               className="border-1 p-1 focus:border-2 outline-none font-normal text-[12px] bg-[#f5f5f5] focus:bg-white 2xl:w-[600px] 2xl:p-6  2xl:text-[50px]"
             />
             <p className="flex items-center gap-1 bg-[#E9E9E9] px-2">

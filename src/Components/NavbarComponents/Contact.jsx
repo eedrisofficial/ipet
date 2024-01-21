@@ -68,7 +68,7 @@ const Contact = () => {
                 </div>
               </div>
               <div className="flex flex-col justify-center items-center font-extrabold text-black">
-                <h1>You can reach us on social media </h1>
+                <h1>You can reach us via social media </h1>
                 <SocialMedia />
               </div>
             </div>

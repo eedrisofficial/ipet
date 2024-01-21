@@ -2,10 +2,10 @@ import React from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import Hero from "./Hero";
-import Bird from "./Pets/Bird";
-import Cat from "./Pets/Cat";
-import Dog from "./Pets/Dog";
+import Cat from "./pets/Cat";
+import Dog from "./pets/Dog";
 import { motion } from "framer-motion";
+import Birds from "./pets/Birds";
 
 const LandingPage = () => {
   return (
@@ -21,7 +21,7 @@ const LandingPage = () => {
         <Hero />
         <Dog />
         <Cat />
-        <Bird />
+        <Birds />
       </motion.div>
       <Footer />
     </React.Fragment>

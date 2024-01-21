@@ -18,7 +18,7 @@ export const cat = [
     Image:
       "https://images.pexels.com/photos/9166269/pexels-photo-9166269.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load",
     number: "8",
-    name: "Bull dog",
+    name: "echo",
   },
   {
     category: "cat",
