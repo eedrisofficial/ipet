@@ -18,7 +18,7 @@ const SingleFrame = ({ animal }) => {
           <p className=" text-[12px] font-semibold  md:text-[16px] lg:text-[14px]  2xl:text-[40px]">
             {animal.name}
             <span className="text-[8px]  text-[#7a7878] font-light rounded-full px-2 md:text-[12px] lg:text-[12px]  2xl:text-[20px] ">
-              {animal.number}
+              {animal.number}.
             </span>
           </p>
           <Link to="/mascaw">
