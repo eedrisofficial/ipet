@@ -23,7 +23,7 @@ const SingleFrame = ({ animal }) => {
           </p>
           <Link to="/mascaw">
             <button className=" font-medium hover:underline text-[10px] ">
-              View all..
+              View all...
             </button>
           </Link>
         </div>
